@@ -1,0 +1,21 @@
+@use './helpers' as *;
+@use 'fonts';
+
+:root {
+    --background-base: #121212;
+    --background-highlight: #1f1f1f;
+    --background-press: #000;
+    --text-base: #fff;
+    --text-subdued: #b3b3b3;
+    --primary: #1ed760;
+
+    --shadow: 0 0 0 #{rem(3)} #191919;
+
+    --font-family-sans: 'SpotifyMix', sans-serif;
+
+    --container-width: #{rem(1280)};
+    --header-width: #{rem(72)};
+    --container-padding-x: #{rem(16)};
+
+    --transition-duration: 0.2s;
+}
