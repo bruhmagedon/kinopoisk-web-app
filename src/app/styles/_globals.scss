@@ -1,8 +1,11 @@
+@use './helpers' as *;
+
 body {
     min-height: 100vh;
     font-family: var(--font-family-sans);
     color: var(--text-base);
     background-color: var(--background-press);
+    padding: rem(8);
 }
 
 main {

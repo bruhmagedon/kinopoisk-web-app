@@ -1,4 +1,11 @@
-type ClsxParams = (boolean | string | Record<string, boolean | string> | string[])[];
+type ClsxParams = (
+    | boolean
+    | string
+    | Record<string, boolean | string>
+    | string[]
+    | null
+    | undefined
+)[];
 /**
  * Объединяет классы в одну строку по аналогии с популярной библиотекой clsx.
  *
