@@ -14,12 +14,12 @@
         /* Bundler mode */
         "moduleResolution": "bundler",
         "paths": {
-            "@app/*": ["src/app/*"],
-            "@styles/*": ["src/app/styles/*"],
-            "@pages/*": ["src/pages/*"],
-            "@features/*": ["src/features/*"],
-            "@hooks/*": ["src/shared/hooks/*"],
-            "@ui/*": ["src/shared/ui/kit/*"]
+            "@/app/*": ["src/app/*"],
+            "@/styles/*": ["src/app/styles/*"],
+            "@/pages/*": ["src/pages/*"],
+            "@/modules/*": ["src/modules/*"],
+            "@/hooks/*": ["src/shared/hooks/*"],
+            "@/ui/*": ["src/shared/ui/kit/*"]
         },
         "allowImportingTsExtensions": true,
 

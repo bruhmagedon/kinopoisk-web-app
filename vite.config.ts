@@ -27,18 +27,18 @@ export default defineConfig(({ mode }) => {
         },
         resolve: {
             alias: {
-                '@app': path.resolve(__dirname, './src/app'),
-                '@styles': path.resolve(__dirname, './src/app/styles'),
-                '@pages': path.resolve(__dirname, './src/pages'),
-                '@features': path.resolve(__dirname, './src/features'),
-                '@hooks': path.resolve(__dirname, './src/shared/hooks'),
-                '@ui': path.resolve(__dirname, './src/shared/ui/kit')
+                '@/app': path.resolve(__dirname, './src/app'),
+                '@/styles': path.resolve(__dirname, './src/app/styles'),
+                '@/pages': path.resolve(__dirname, './src/pages'),
+                '@/modules': path.resolve(__dirname, './src/modules'),
+                '@/hooks': path.resolve(__dirname, './src/shared/hooks'),
+                '@/ui': path.resolve(__dirname, './src/shared/ui/kit')
             }
         },
         css: {
             preprocessorOptions: {
                 scss: {
-                    additionalData: `@use "@styles/helpers" as *;`
+                    additionalData: `@use "@/styles/helpers" as *;`
                 }
             }
         }
